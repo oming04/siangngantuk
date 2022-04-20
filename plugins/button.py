@@ -65,12 +65,12 @@ def start_button(client):
                 InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
-        ],
             [
                 InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ],
             [
                 InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                 ],
             ]
         return buttons
 
